@@ -39,7 +39,7 @@ Website Link: https://statswr.vercel.app
 
 ## How to set up the database
 In the backend terminal 
-* Run ```node scripts/populateAbilities.js``` to populate abilities
+* Run ```node scripts/populateAbilities.js``` to populate abilities. (Make sure the dependencies within ~/webscraper/requirements.txt is installed on your machine)
 * Run ```node scripts/autoUpdate.js``` to upload the gameplay data within the rawChampionsData folder (can be updated)
 * Run ```node scripts/deleteAllGameplayDataByDate.js``` to delete all gameplayData entries with the date field equal to targetPatchDate
 
